@@ -1,0 +1,1 @@
+Fungsi folder utils adalah membuat function2x yang dapat dipanggil di seluruh aplikasi.  Ini termasuk fungsi untuk manipulasi data, format tanggal, dan operasi umum lainnya. 

@@ -1,0 +1,17 @@
+1. npm init
+2. nanti akan diminta entry point, pilih index.js
+3. install depedency ada dibawah:
+    a. npm install express bcryptjs cookie-parser cors helmet joi jsonwebtoken mongoose nodemailer
+        penjelasan:
+        * expressjs untuk membangun aplikasi web dan API. Express menyediakan berbagai fitur untuk menanani routing, middleware, dan pengelolaan permintaan HTTP.
+        * bcryptjs untuk enkripsi password
+        * cookie-parser untuk mengolah cookie
+        * cors adalah mekanisme yang memungkinkan sumber daya di satu domain diakses oleh halaman web dari domain lain
+        * helmet adalah sebuah middleware untuk melindungi aplikasi dari serangan seperti Cross-Site Scripting (XSS) dan Cross-Site Request Forgery (CSRF)
+        * joi adalah library untuk validasi data
+        * jsonwebtoken untuk membuat token JWT, sering digunakan untukl JWT dan otorisasi dalam aplikasi web, memungkinkan pengguna untuk mengakses sumber daya tertentu
+        * mongoose adalah library untuk menghubungkan aplikasi Node.js dengan MongoDB, menyediakan fitur seperti validasi, penghubung dan query yang lebih mudah
+        * nodemailer adalah library untuk mengirim email baik melalui SMTP
+4. buat file .env
+
+
